@@ -6,6 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
+    'students#activate', as: 'activate_student'
   end
 
   private
